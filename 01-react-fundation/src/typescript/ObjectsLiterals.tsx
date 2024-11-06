@@ -4,6 +4,7 @@ interface Person {
     age: number;
 
     address: Address
+    isAlive?: boolean;
 }
 
 interface Address {
@@ -17,6 +18,7 @@ export const ObjectsLiterals = () => {
         age: 24,
         firstName: "Willy",
         lastName: "Rivera",
+        isAlive: undefined,
         address: {
             country: "Mexico",
             houseNo: 179
