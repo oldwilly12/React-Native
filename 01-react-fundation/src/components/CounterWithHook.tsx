@@ -15,7 +15,8 @@ export const CounterWithHook = () => {
         <div>
             <button onClick={ () => increaseBy (1) }>+1</button>
 
-            &nbsp; //caracter invisible para hacer una separacion entre botones
+            {/* caracter invisible para hacer una separacion entre botones */}
+            &nbsp; 
             <button onClick={ () => increaseBy (-1) }>-1</button>
 
 
